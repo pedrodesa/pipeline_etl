@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pipeline-etl"
+version = "0.1.0"
+description = "Meu projeto de etl"
+authors = ["Pedro de Sá <pedrodesa42@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.3"
+pandas = "^2.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
