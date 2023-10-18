@@ -19,7 +19,8 @@ def extract_from_excel(path: str) -> List[pd.DataFrame]:
 
     data_frame_list = []
     for file in all_files:
-        data_frame_list.append(pd.read_excel(file))
+        data = pd.read_excel(file)
+        data_frame_list.append(data)
     
     return data_frame_list
 
